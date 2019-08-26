@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SignUp</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+<form>
+   <p>
+       <label for="login-field">Логін:</label>
+       <input type="text" name="login" id="login-field">
+   </p>
+   <p>
+       <label for="password-field">Пароль:</label>
+    <input type="password" name="password" id="password-field">
+   </p>
+    <p>
+        <label for="password-field-rep">Повторіть пароль:</label>
+        <input type="password" name="password-rep" id="password-field-rep">
+    </p>
+    <p>
+        Стать:
+        <input type="radio" id="radioButton" value="male" name="sex">
+        <label for="radioButton">Чоловік</label>
+        <input type="radio" id="radioButton2" value="female" name="sex">
+        <label for="radioButton2">Жінка</label>
+    </p>
+    <p>
+        <label for="country">Виберіть країну:</label>
+        <select id="country">
+            <option value="Ukraine">Ukraine</option>
+            <option value="Romania">Romania</option>
+            <option value="Greece">Greece</option>
+        </select>
+    </p>
+    <p>
+        <label for="about-me">Про себе:</label>
+        <textarea id="about-me">Ya...</textarea>
+    </p>
+    <p>
+        <input type="submit" id="submit">
+
+    </p>
+</form>
+</body>
+</html>
